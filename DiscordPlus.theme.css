@@ -1,0 +1,89 @@
+/**
+ * @name Discord
+ * @author CokkieYTT
+ * @authorId 749633634595766322
+ * @authorLink https://www.tiktok.com/@queyz.q
+ * @version 1.0.0
+ * @description A Discord theme.
+ * @website https://www.tiktok.com/@queyz.q
+ * @source https://github.com/notubeciamits/discord-theme
+ * @updateUrl https://github.com/notubeciamits/discord-theme/DiscordPlus.theme.css
+*/
+@import url(https://github.com/notubeciamits/discord-theme/DiscordPlus.theme.css);
+
+/* I've commented most of these values so you can change them yourself. If you're having trouble, or you want to do more than what these values allow for, a volunteer might be able to help you in my server. */
+
+.theme-dark {
+/* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
+   To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
+  --dplus-backdrop: url(https://www.canva.com/design/DAFIdfjqkFo/My_bWnE-ArdaEPemyhb5Tw/view?utm_content=DAFIdfjqkFo&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu);
+
+/* Accent color, used to decorate the UI with colors. */
+  --dplus-accent-color-hue: 320;
+  --dplus-accent-color-saturation: 60%;
+  --dplus-accent-color-lightness: 31%;
+
+/* Foreground color: For things like text and icons. */
+  --dplus-foreground-color-hue-base: 210;
+  --dplus-foreground-color-hue-links: 197;
+  --dplus-foreground-color-saturation-amount: 1;
+  --dplus-foreground-color-lightness-amount: 1;
+
+/* Background color: Covers the backdrop so the app is easier to read. */
+  --dplus-background-color-hue: 320;
+  --dplus-background-color-saturation-amount: 1;
+  --dplus-background-color-lightness-amount: 1;
+  --dplus-background-color-alpha: 0.8;
+}
+
+/* If you use light theme, you can give it unique settings that are separate from dark theme. */
+.theme-light {
+  --dplus-backdrop: url(https://www.canva.com/design/DAFIdfjqkFo/My_bWnE-ArdaEPemyhb5Tw/view?utm_content=DAFIdfjqkFo&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu);
+  
+  --dplus-accent-color-hue: 320;
+  --dplus-accent-color-saturation: 60%;
+  --dplus-accent-color-lightness: 31%;
+  
+  --dplus-foreground-color-hue-base: 210;
+  --dplus-foreground-color-hue-links: 197;
+  --dplus-foreground-color-saturation-amount: 1;
+  --dplus-foreground-color-lightness-amount: 1;
+
+  --dplus-background-color-hue: 320;
+  --dplus-background-color-saturation-amount: 1;
+  --dplus-background-color-lightness-amount: 1;
+  --dplus-background-color-alpha: 0.8;
+}
+
+:root {
+/* Fonts */
+/* You can use any installed font on your device. */
+  --dplus-font-ui: 'Poppins';
+  --dplus-font-body: 'Roboto';
+  --dplus-font-header: 'Righteous';
+
+/* Round corner sizes, measured in pixel radius.
+Set avatar/server radius to 50% to make them circular.
+   UI radius must be in pixels, otherwise things break. */
+  --dplus-radius-ui: 10px;
+  --dplus-radius-avatar: 20%;
+  --dplus-radius-server: 20%;
+
+/* This decides how much breathing room there should be between things like buttons and content. */
+  --dplus-spacing-ui: 10px;
+
+/* This sets how much space there should be between the app contents and the edges of the window. It also affects the distance between major UI elements, such as the server list to the channel list and channel list to the chat. */
+   --dplus-spacing-app: 10px;
+
+/* Size of user and server icons */
+--dplus-icon-avatar-chat: 64px;
+--dplus-icon-avatar-list: 32px;
+--dplus-icon-avatar-profile: 80px;
+
+--dplus-icon-server-sidebar: 48px;
+--dplus-icon-server-list: 32px;
+
+/* The Home icon on the top left */
+--dplus-icon-home-dark: url(https://bpng.subpng.com/dy/d26a7e343e0e3d3ab1470dabb3f409af/L0KzQYm3V8E3N5ptgpH0aYP2gLBuTfRqe5R0itY2bHBqf37qjB1xfaVqip9yY3Bxg37tjB51NZJ8feV4bXWwcr32jBR6NZ1ujtc2c4T1dbL0if5oNWZnTNY9N3PkQIfrVMg6NmE2SagAOUKzQYa6Ucc6OWQ1TqI7OD7zfri=/kisspng-discord-logo-computer-icons-font-awesome-bloody-live-streaming-5b4d47ca06d489.011659201531791306028.png);
+--dplus-icon-home-light: url(https://bpng.subpng.com/dy/d26a7e343e0e3d3ab1470dabb3f409af/L0KzQYm3V8E3N5ptgpH0aYP2gLBuTfRqe5R0itY2bHBqf37qjB1xfaVqip9yY3Bxg37tjB51NZJ8feV4bXWwcr32jBR6NZ1ujtc2c4T1dbL0if5oNWZnTNY9N3PkQIfrVMg6NmE2SagAOUKzQYa6Ucc6OWQ1TqI7OD7zfri=/kisspng-discord-logo-computer-icons-font-awesome-bloody-live-streaming-5b4d47ca06d489.011659201531791306028.png);
+}
